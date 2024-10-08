@@ -1,15 +1,15 @@
-module github.com/atombender/go-jsonschema/tests
+module github.com/stokelp/go-jsonschema/tests
 
 go 1.22
 
 replace (
-	github.com/atombender/go-jsonschema => ../
-	github.com/atombender/go-jsonschema/tests/helpers/other => ./helpers/other
+	github.com/stokelp/go-jsonschema => ../
+	github.com/stokelp/go-jsonschema/tests/helpers/other => ./helpers/other
 )
 
 require (
-	github.com/atombender/go-jsonschema v0.15.0
-	github.com/atombender/go-jsonschema/tests/helpers/other v0.0.0-20240416182955-738cf5ab9ab4
+	github.com/stokelp/go-jsonschema v0.15.0
+	github.com/stokelp/go-jsonschema/tests/helpers/other v0.0.0-20240416182955-738cf5ab9ab4
 	gopkg.in/yaml.v3 v3.0.1
 )
 

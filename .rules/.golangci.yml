@@ -67,7 +67,7 @@ linters-settings:
     sections:
       - standard # Standard section: captures all standard packages.
       - default # Default section: contains all imports that could not be matched to another section type.
-      - prefix(github.com/atombender) # Custom section: groups all imports with the specified Prefix.
+      - prefix(github.com/stokelp) # Custom section: groups all imports with the specified Prefix.
     skip-generated: true
     custom-order: true
   godot:
@@ -80,7 +80,7 @@ linters-settings:
   gofumpt:
     extra-rules: true
   goimports:
-    local-prefixes: github.com/atombender
+    local-prefixes: github.com/stokelp
   govet:
     shadow: true
   grouper:
@@ -460,7 +460,7 @@ issues:
   #
   # Default: []
   exclude:
-    - "local replacement are not allowed: github.com/atombender/go-jsonschema/tests/data"
+    - "local replacement are not allowed: github.com/stokelp/go-jsonschema/tests/data"
     - "exporting a pointer for the loop variable i"
     - "G601: Implicit memory aliasing in for loop."
   # Excluding configuration per-path, per-linter, per-text and per-source
