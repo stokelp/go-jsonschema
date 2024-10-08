@@ -5,17 +5,17 @@ import (
 	"errors"
 	"testing"
 
-	testExclusiveMaximum "github.com/atombender/go-jsonschema/tests/data/validation/exclusiveMaximum"
-	testExclusiveMinimum "github.com/atombender/go-jsonschema/tests/data/validation/exclusiveMinimum"
-	testMaxLength "github.com/atombender/go-jsonschema/tests/data/validation/maxLength"
-	testMaximum "github.com/atombender/go-jsonschema/tests/data/validation/maximum"
-	testMinLength "github.com/atombender/go-jsonschema/tests/data/validation/minLength"
-	testMinimum "github.com/atombender/go-jsonschema/tests/data/validation/minimum"
-	testMultipleOf "github.com/atombender/go-jsonschema/tests/data/validation/multipleOf"
-	testPattern "github.com/atombender/go-jsonschema/tests/data/validation/pattern"
-	testPrimitiveDefs "github.com/atombender/go-jsonschema/tests/data/validation/primitive_defs"
-	testRequiredFields "github.com/atombender/go-jsonschema/tests/data/validation/requiredFields"
-	"github.com/atombender/go-jsonschema/tests/helpers"
+	testExclusiveMaximum "github.com/stokelp/go-jsonschema/tests/data/validation/exclusiveMaximum"
+	testExclusiveMinimum "github.com/stokelp/go-jsonschema/tests/data/validation/exclusiveMinimum"
+	testMaxLength "github.com/stokelp/go-jsonschema/tests/data/validation/maxLength"
+	testMaximum "github.com/stokelp/go-jsonschema/tests/data/validation/maximum"
+	testMinLength "github.com/stokelp/go-jsonschema/tests/data/validation/minLength"
+	testMinimum "github.com/stokelp/go-jsonschema/tests/data/validation/minimum"
+	testMultipleOf "github.com/stokelp/go-jsonschema/tests/data/validation/multipleOf"
+	testPattern "github.com/stokelp/go-jsonschema/tests/data/validation/pattern"
+	testPrimitiveDefs "github.com/stokelp/go-jsonschema/tests/data/validation/primitive_defs"
+	testRequiredFields "github.com/stokelp/go-jsonschema/tests/data/validation/requiredFields"
+	"github.com/stokelp/go-jsonschema/tests/helpers"
 )
 
 func TestMaxStringLength(t *testing.T) {
