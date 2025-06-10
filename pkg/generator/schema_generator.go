@@ -282,6 +282,14 @@ func (g *schemaGenerator) generateDeclaredType(t *schemas.Type, scope nameScope)
 		name = g.caser.Identifierize(t.Title)
 	}
 
+	// Apply prefix if configured
+	if g.Generator.config.StructNamePrefix != "" {
+		// Don't apply prefix to types that are already prefixed
+		if !strings.HasPrefix(name, g.Generator.config.StructNamePrefix) {
+			name = g.Generator.config.StructNamePrefix + name
+		}
+	}
+
 	decl := codegen.TypeDecl{
 		Name:       name,
 		Comment:    t.Description,
@@ -1147,8 +1155,18 @@ func (g *schemaGenerator) generateEnumType(
 		}
 	}
 
+	name := g.output.uniqueTypeName(scope)
+
+	// Apply prefix if configured
+	if g.Generator.config.StructNamePrefix != "" {
+		// Don't apply prefix to types that are already prefixed
+		if !strings.HasPrefix(name, g.Generator.config.StructNamePrefix) {
+			name = g.Generator.config.StructNamePrefix + name
+		}
+	}
+
 	enumDecl := codegen.TypeDecl{
-		Name:       g.output.uniqueTypeName(scope),
+		Name:       name,
 		Type:       enumType,
 		SchemaType: t,
 	}

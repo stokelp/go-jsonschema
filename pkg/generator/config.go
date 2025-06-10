@@ -40,6 +40,8 @@ type Config struct {
 	// DisableCustomTypesForMaps configures the generator to avoid creating a custom type for maps,
 	// and to use the map type directly.
 	DisableCustomTypesForMaps bool
+	// StructNamePrefix configures the generator to prefix all generated struct names with the specified string.
+	StructNamePrefix string
 }
 
 type SchemaMapping struct {
