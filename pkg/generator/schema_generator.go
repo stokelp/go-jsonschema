@@ -1017,6 +1017,10 @@ func (g *schemaGenerator) generateTypeInline(t *schemas.Type, scope nameScope) (
 				}
 			}
 
+			if typeIsNullable {
+				return codegen.WrapTypeInPointer(codegen.ArrayType{Type: theType}), nil
+			}
+
 			return &codegen.ArrayType{Type: theType}, nil
 		}
 	}

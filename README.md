@@ -5,18 +5,18 @@ along with unmarshalling code that validates the input JSON according to the sch
 
 ## Badges
 
-[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/omissis/go-jsonschema?style=flat)](https://github.com/omissis/go-jsonschema/releases/latest)
-[![GitHub Workflow Status (event)](https://img.shields.io/github/actions/workflow/status/omissis/go-jsonschema/development.yaml?style=flat)](https://github.com/omissis/go-jsonschema/actions?workflow=development)
-[![License](https://img.shields.io/github/license/omissis/go-jsonschema?style=flat)](/LICENSE.md)
-[![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/omissis/go-jsonschema?style=flat)](https://tip.golang.org/doc/go1.23)
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/omissis/go-jsonschema?style=flat)](https://github.com/omissis/go-jsonschema)
-[![GitHub repo file count (file type)](https://img.shields.io/github/directory-file-count/omissis/go-jsonschema?style=flat)](https://github.com/omissis/go-jsonschema)
-[![GitHub all releases](https://img.shields.io/github/downloads/omissis/go-jsonschema/total?style=flat)](https://github.com/omissis/go-jsonschema)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/y/omissis/go-jsonschema?style=flat)](https://github.com/omissis/go-jsonschema/commits)
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/stokelp/go-jsonschema?style=flat)](https://github.com/stokelp/go-jsonschema/releases/latest)
+[![GitHub Workflow Status (event)](https://img.shields.io/github/actions/workflow/status/stokelp/go-jsonschema/development.yaml?style=flat)](https://github.com/stokelp/go-jsonschema/actions?workflow=development)
+[![License](https://img.shields.io/github/license/stokelp/go-jsonschema?style=flat)](/LICENSE.md)
+[![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/stokelp/go-jsonschema?style=flat)](https://tip.golang.org/doc/go1.23)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/stokelp/go-jsonschema?style=flat)](https://github.com/stokelp/go-jsonschema)
+[![GitHub repo file count (file type)](https://img.shields.io/github/directory-file-count/stokelp/go-jsonschema?style=flat)](https://github.com/stokelp/go-jsonschema)
+[![GitHub all releases](https://img.shields.io/github/downloads/stokelp/go-jsonschema/total?style=flat)](https://github.com/stokelp/go-jsonschema)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/y/stokelp/go-jsonschema?style=flat)](https://github.com/stokelp/go-jsonschema/commits)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=flat)](https://conventionalcommits.org)
-[![Codecov](https://img.shields.io/codecov/c/gh/omissis/go-jsonschema?style=flat&token=lPWlXd3MVK)](https://codecov.io/gh/omissis/go-jsonschema)
-[![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/omissis/go-jsonschema?style=flat)](https://codeclimate.com/github/omissis/go-jsonschema)
-[![Go Report Card](https://goreportcard.com/badge/github.com/omissis/go-jsonschema)](https://goreportcard.com/report/github.com/omissis/go-jsonschema)
+[![Codecov](https://img.shields.io/codecov/c/gh/stokelp/go-jsonschema?style=flat&token=lPWlXd3MVK)](https://codecov.io/gh/stokelp/go-jsonschema)
+[![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/stokelp/go-jsonschema?style=flat)](https://codeclimate.com/github/stokelp/go-jsonschema)
+[![Go Report Card](https://goreportcard.com/badge/github.com/stokelp/go-jsonschema)](https://goreportcard.com/report/github.com/stokelp/go-jsonschema)
 
 ## Installing
 
@@ -32,7 +32,7 @@ go install github.com/atombender/go-jsonschema@latest
 * **Install with Brew**: To install with [Homebrew](https://brew.sh):
 
 ```shell
-brew tap omissis/go-jsonschema
+brew tap stokelp/go-jsonschema
 brew install go-jsonschema
 ```
 
