@@ -1,15 +1,15 @@
-module github.com/atombender/go-jsonschema/tests
+module github.com/stokelp/go-jsonschema/tests
 
 go 1.23.0
 
 replace (
-	github.com/atombender/go-jsonschema => ../
-	github.com/atombender/go-jsonschema/tests/helpers/other => ./helpers/other
+	github.com/stokelp/go-jsonschema => ../
+	github.com/stokelp/go-jsonschema/tests/helpers/other => ./helpers/other
 )
 
 require (
-	github.com/atombender/go-jsonschema v0.20.0
-	github.com/atombender/go-jsonschema/tests/helpers/other v0.0.0-20250601000041-458aecabb68c
+	github.com/stokelp/go-jsonschema v0.20.0
+	github.com/stokelp/go-jsonschema/tests/helpers/other v0.0.0-20250601000041-458aecabb68c
 	github.com/go-viper/mapstructure/v2 v2.2.1
 	github.com/google/go-cmp v0.7.0
 	github.com/stretchr/testify v1.10.0
