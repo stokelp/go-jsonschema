@@ -74,6 +74,27 @@ Note the flag format:
                  schema $id                  full import URL
 ```
 
+### Command Line Options
+
+Here are some of the most commonly used command line options:
+
+* `--package`, `-p`: Default name of package to declare Go files under
+* `--output`, `-o`: File to write (- for standard output)
+* `--struct-name-prefix`: Prefix to add to all generated struct names
+* `--struct-name-from-title`, `-t`: Use the schema title as the generated struct name
+* `--extra-imports`, `-e`: Allow extra imports (non standard library)
+* `--only-models`: Generate only models (no unmarshal methods, no validation)
+* `--min-sized-ints`: Uses sized int and uint values based on the min and max values for the field
+* `--verbose`, `-v`: Verbose output
+
+Example with struct name prefix:
+
+```shell
+go-jsonschema -p main --struct-name-prefix=API schema.json
+```
+
+This will generate struct names like `APIUser` instead of just `User`.
+
 ### Regenerating tests' golden files
 
 It sometimes happen that new features or bug fixes to the library require regenerating the tests' golden files, here's how to do it:
